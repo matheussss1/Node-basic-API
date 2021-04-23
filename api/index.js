@@ -42,4 +42,4 @@ http.createServer((req, res) => {
 
     return writeFile((message) => res.end(message))
 
-}).listen('5000', () => console.log('Api está rodando'))
+}).listen('5000', () => console.log('Api está rodando na porta 5000'))
